@@ -29,7 +29,7 @@ const AdminSideBar = () => {
           Approve Leave
         </Link>
 
-        <Link to="/" className="hover:text-white hover:opacity-80">
+        <Link to="/login" className="hover:text-white hover:opacity-80">
           LogOut
         </Link>
       </div>

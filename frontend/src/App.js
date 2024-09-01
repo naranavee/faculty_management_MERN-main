@@ -1,6 +1,5 @@
 import React from "react";
 import Leave from "./Faculty/Leave";
-import SideBar from "./components/SideBar";
 import Profile from "./Faculty/Profile";
 import PublishJournal from "./Faculty/PublishJournal";
 import { BrowserRouter, Route, Routes } from "react-router-dom";

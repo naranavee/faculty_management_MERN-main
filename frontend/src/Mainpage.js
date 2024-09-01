@@ -24,7 +24,7 @@ const MainPage = () => {
             className="bg-yellow-500 hover:bg-yellow-600 text-gray-800 font-semibold py-2 px-6 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110" 
             onClick={navigateToFacultyLogin}
           >
-            Faculty
+            Admin/Faculty
           </button>
         </div>
       </header>

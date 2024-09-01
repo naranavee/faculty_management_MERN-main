@@ -21,7 +21,7 @@ const SideBar = () => {
         <Link to="/profile" className="hover:text-white hover:opacity-80">
           Profile
         </Link>
-        <Link to="/" className="hover:text-white hover:opacity-80">
+        <Link to="/login" className="hover:text-white hover:opacity-80">
           LogOut
         </Link>
       </div>

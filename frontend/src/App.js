@@ -11,12 +11,14 @@ import AdminFaculty from "./Admin/AdminFaculty";
 import AdminJournals from "./Admin/AdminJournals";
 import AdminWorkshops from "./Admin/AdminWorkshops";
 import SignUp from "./SignUp";
+import MainPage from "./Mainpage";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Login />} />
+        <Route path="/" element={<MainPage />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/register" element={<SignUp />} />
         <Route path="/leave" element={<Leave />} />
         <Route path="/profile" element={<Profile />} />

@@ -56,7 +56,7 @@ const SignUp = () => {
         married: married,
       });
       toast.success("Registration successful!");
-      navigate("/"); // Redirect to login page after successful registration
+      navigate("/login"); // Redirect to login page after successful registration
     } catch (error) {
       console.error("Error during registration", error);
       alert("Registration failed. Please try again.");
@@ -187,7 +187,7 @@ const SignUp = () => {
         <h1 className="mt-2 place-self-center text-lg font-semibold">
           Already have an account?{" "}
           <Link
-            to="/"
+            to="/login"
             className="hover:underline underline-offset-2 cursor-pointer"
           >
             Login
